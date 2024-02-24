@@ -30,7 +30,8 @@ Then go back to API & Services, chose OAuth consent screen and choose as image b
 Just save and contiue for scope.
 
 ![alt text](image/6.png)
-at test users add users and enter your gmail account. Then at summary choose back to dash board.
+
+At test users add users and enter your gmail account. Then at summary choose back to dash board.
 
 ![alt text](image/7.png)
 
@@ -48,7 +49,7 @@ Choose download json
 
 ![alt text](image/11.png)
 
-rename the downloaded file as credentials.json. Then, copy paste it into same folder as project.py. make sure your folder tree look like this, with order is an empty folder.
+Rename the downloaded file as credentials.json. Then, copy paste it into same folder as project.py. make sure your folder tree look like this, with order is an empty folder.
 
 ![alt text](image/12.png)
 
@@ -78,15 +79,18 @@ In your terminal, type: python project.py -u
 
 ![alt text](image/14.png)
 
-if you see this, choose open.
+If you see this, choose open.
 
 ![alt text](image/15.png)
 
-you will be asked to log in your gmail account. Choose the gmail account that we registered in Gmail API (for me its aadatoanthien@gmail.com).
+You will be asked to log in your gmail account. Choose the gmail account that we registered in Gmail API (for me its aadatoanthien@gmail.com).
 
-choose continue
+Choose continue
+
 ![alt text](image/16.png)
-continue
+
+Continue
+
 ![alt text](image/17.png)
 
 After successfully log in. You will see all the mail that have attachments in your gmail will be saved in the order folder.
@@ -95,18 +99,17 @@ Open order folder, you will see all the attachments are saved in folder that hav
 
 You will also see a token.json, this file will save your log in information for next time so you won’t need to log in again.
 
-
 Go to orders.csv, you will see id of gmail, number of file, message(snippet) of the email and completion status(done).
 
 ![alt text](image/18.png)
 
-to see orders of custumer. use second arg: -s or --show along with an integer number of orders you want to see. You can use 'a' to see all orders.
+To see orders of custumer. use second arg: -s or --show along with an integer number of orders you want to see. You can use 'a' to see all orders.
 
-in your terminal, execute: python project.py -s a or --show a, you should see all orders’ detail in orders.csv file:
+In your terminal, execute: python project.py -s a or --show a, you should see all orders’ detail in orders.csv file:
 
 ![show all orders](image/19.png)
 
-execute: python project.py -s 3
+Execute: python project.py -s 3
 
 ![show 3 orders](image/20.png)
 
