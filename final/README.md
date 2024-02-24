@@ -1,5 +1,5 @@
 # Organizing email attachments with Gmail API.
-#### Video Demo:  [<URL HERE>](https://www.youtube.com/watch?v=yB_15jygJJI)
+#### Video Demo: https://www.youtube.com/watch?v=yB_15jygJJI
 #### Description: My house has a photocopy shop and custumers will send files (attachments) via gmail. In order to save time opening mails and dowloading files manually, this program helps to keep track of custumers' order, files, and message. The program also help to organize files and remove completed orders, files.
 
 ### Setting up Gmail API:
