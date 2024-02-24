@@ -2,8 +2,6 @@
 #### Video Demo:  <URL HERE>
 #### Description: My house has a photocopy shop and custumers will send files (attachments) via gmail. In order to save time opening mails and dowloading files manually, this program helps to keep track of custumers' order, files, and message. The program also help to organize files and remove completed orders, files.
 
-### Background:
-
 ### Setting up Gmail API:
 
 Go to Google Cloud Project Quick Start for Python
